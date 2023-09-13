@@ -1,0 +1,17 @@
+﻿version: '3.8'
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: testingdb
+    environment:
+        - ACCEPT_EULA=Y
+        - MSSQL_SA_PASSWORD=raccoon_23A
+        - MSSQL_PID=Developer
+    ports:
+        - 1433:1433
+    networks:
+        - erick
+networks:
+    erick:
+    

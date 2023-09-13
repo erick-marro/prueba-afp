@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaAFP.API", "PruebaAFP.API\PruebaAFP.API.csproj", "{1E5CE751-C923-4BE1-BA60-1972CE8DBE0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{290A3909-BA62-4FB1-ABEC-C3C0BDE1CDF0}"
+	ProjectSection(SolutionItems) = preProject
+		API.md = API.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{37AEE838-12A9-4A68-8DD1-E8478212A3C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BB692D51-FAB8-46D0-8DED-DE969A85B549}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaAFP.Contracts", "PruebaAFP.Contracts\PruebaAFP.Contracts.csproj", "{46B98677-E077-4756-91FC-772EFCF7BBCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{226A5CA5-4F57-4CFD-A4C3-2B835F4ACA58}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E5CE751-C923-4BE1-BA60-1972CE8DBE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5CE751-C923-4BE1-BA60-1972CE8DBE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5CE751-C923-4BE1-BA60-1972CE8DBE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5CE751-C923-4BE1-BA60-1972CE8DBE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B98677-E077-4756-91FC-772EFCF7BBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B98677-E077-4756-91FC-772EFCF7BBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B98677-E077-4756-91FC-772EFCF7BBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B98677-E077-4756-91FC-772EFCF7BBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E5CE751-C923-4BE1-BA60-1972CE8DBE0A} = {BB692D51-FAB8-46D0-8DED-DE969A85B549}
+		{46B98677-E077-4756-91FC-772EFCF7BBCB} = {BB692D51-FAB8-46D0-8DED-DE969A85B549}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EFA3E07-1EB6-4735-961C-0721984899BC}
+	EndGlobalSection
+EndGlobal
